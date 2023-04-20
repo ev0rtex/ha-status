@@ -14,9 +14,9 @@ What can we do about that? Well... I remembered seeing some RGB displays you cou
 
 ## Parts list
 
-  * 32x64 RGB LED panel
-  * Power adapter
-  * ESP8266 board
+  * 32x64 RGB LED panel similar to [the one I bought](https://www.amazon.com/gp/product/B0B3GC18NR/)
+  * Power adapter with enough to power everything - I did a [5V 4A one](https://www.amazon.com/gp/product/B087LY41PV/)
+  * ESP8266 board such as a [WeMos D1 Mini clone](https://www.amazon.com/gp/product/B081PX9YFV/)
 
 ## Building the panel
 
