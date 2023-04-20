@@ -1,7 +1,7 @@
 #define VERSION "0.1.0"
 
 // Debugging headers
-#include <GDBStub.h>
+// #include <GDBStub.h>
 #include <loopTimer.h>
 
 // Networking/FS headers
@@ -9,11 +9,7 @@
 #include <ESP8266mDNS.h>
 #include <LittleFS.h>
 #include <ArduinoJson.h>
-
-#pragma GCC diagnostic push
-#pragma GCC diagnostic ignored "-Wall"
 #include <ArduinoHA.h>
-#pragma GCC diagnostic pop
 
 // Display related headers
 #include <PxMatrix.h>
@@ -623,7 +619,7 @@ SceneDemo scene_demo;
 // Setup tasks
 void setup() {
   Serial.begin(115200);
-  gdbstub_init();
+  // gdbstub_init();
 
   // Set up the display
   display.begin(MATRIX_ROW_PATTERN);
@@ -749,7 +745,8 @@ void setup() {
 
 // Main loop
 void loop() {
-  loopTimer.check(Serial);
+  // Loop timer to show the time each loop takes
+  // loopTimer.check(Serial);
 
   // Update the mDNS responder
   MDNS.update();
