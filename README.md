@@ -43,4 +43,8 @@ Here is a basic outline of what I built in this sketch so far:
 
 The pictures really did a terrible job of reproducing the actual brightness of the display... just know that the colors look way better in person than in these photos
 
-![alt text](images/collage.png)
+![Collage of photos showing each scene](images/collage.png)
+
+In Home Assistant you can control the device with a simple select (dropdown) control. This opens it up to all of the potential automations you might want to do. In my case I am going to set up a few things to detect when I'm present in my office during normal work hours combined with some other things like zoom meeting status (using and integration that works with Zoom's webhooks), and possibly calendar events.
+
+![Status display control in Home Assistant](images/hadevice.png)
