@@ -38,3 +38,9 @@ Here is a basic outline of what I built in this sketch so far:
   * Non-blocking code everywhere possible so that even the config/web portal runs quick and smooth
   * Custom configuration parameters in the web portal (accessible initially via the captive portal and later via it's IP on the network) for telling it where to connect to an MQTT broker
   * Automatic configuration in Home Assistant if you have the MQTT integration set up and pointing to the same MQTT broker as the status sign
+
+## See it in action
+
+The pictures really did a terrible job of reproducing the actual brightness of the display... just know that the colors look way better in person than in these photos
+
+![alt text](images/collage.png)
